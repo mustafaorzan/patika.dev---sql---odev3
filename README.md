@@ -17,7 +17,7 @@ CEVAP:
 
 CEVAP: 
 
-    SELECT * FROM film WHERE title ILIKE '%T%T%T%T'
+    SELECT title FROM film WHERE title ILIKE '%T%T%T%T'
         
 4 - film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
 
